@@ -1,0 +1,293 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.imas{
+    width: 37px;
+   
+    
+}
+
+
+.kusu{
+    width: 100%;
+
+  
+}
+
+.h-main{
+    display: flex;
+   text-align: center;
+    justify-content: space-between;
+    padding: 80px 0;
+   
+    
+}
+
+.h-left {
+    .lll{
+        width: 700px;
+        
+
+    }
+   
+   
+    
+}
+
+
+.h-right{
+    
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: #274C5B;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: #525C60;
+    }
+    .btn{
+        width: 180px;
+        height: 80px;
+        border-radius: 16px;
+        background-color: #274C5B;
+        font-size: 19px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+}
+
+
+@media (max-width: 1205px) {
+    .h-main{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+
+.s-main{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.s-left{
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: #274C5B;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 400;
+        color: #525C60;  
+    }
+    .s-right{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1207px) {
+    .s-main{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+.hhh{
+    width: 48px;
+    margin-left: 120px;
+}
+
+.wrapper{
+    display: flex;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    h5{
+        font-size: 20px;
+        font-weight: 800;
+        color: #274C5B;
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #525C60;
+        text-align: center;
+    }
+}
+
+.card{
+    border: none !important;
+}
+
+@media (max-width: 1207px) {
+    .wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+@media (max-width: 1035px) {
+    .wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width: 804px) {
+    .wrapper{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+}
+
+.gog{
+        font-size: 40px;
+        font-weight: 800;
+        color: #274C5B;
+}
+
+.l-main{
+    text-align: center;
+}
+
+.corn{
+    margin-right: 200px;
+}
+
+.aru{
+    margin-top: 20px;
+}
+
+.wrappers{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+}
+
+
+@media (max-width: 1204px) {
+    .wrappers{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 1041px) {
+    .wrappers{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+}
+
+.asam{
+    background-color: #274C5B;
+    padding: 80px 0;
+    width: 100%;
+    height: max-content;
+}
+
+.full{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sov{
+    margin-left: 580px;
+}
+
+.holp{
+    width: 300px;
+    
+}
+
+.o-main{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+
+}
+
+@media (max-width: 1241px) {
+    .o-main{
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1059px) {
+    .o-main{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 860px) {
+    .o-main{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
+
+.gull{
+    width: 100%;
+    padding: 80px 0;
+    
+}
+
+.f-main {
+    height: max-content;
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .items{
+    
+    h5{
+        font-size: 30px;
+        font-weight: 700;
+        color: #274C5B;
+    }
+
+  }
+
+  .item{
+    h5{
+        font-size: 30px;
+        font-weight: 700;
+        color: #274C5B;
+    }
+  }
+
+
+  .ggg{
+    font-size: 21px;
+    font-weight: 500;
+    color: #525C60;
+  }
+
+  @media (max-width: 1208px) {
+    .f-main{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+  }
+
+  @media (max-width: 1008px) {
+    .f-main{
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+  }
